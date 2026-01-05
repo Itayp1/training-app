@@ -1,0 +1,51 @@
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.training-days {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.training-day-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.training-day-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+
+.day-letter {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.day-label {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.quick-actions {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.quick-actions h2 {
+  margin-bottom: 1.5rem;
+}
+
+.quick-actions .btn {
+  min-width: 200px;
+}
